@@ -1,49 +1,36 @@
-# QR Kod Oluşturucu
+# 📱 Modern QR Generator
 
-Python ile yazılmış, modern arayüze sahip masaüstü QR kod oluşturucu uygulaması.
+A minimalist desktop application built with Python for fast QR code generation. Features seamless clipboard integration and a clean dark theme.
 
-![Önizleme](assets/preview.png)
+## ✨ Features
+- **Instant Generation:** Convert URLs or text to QR codes.
+- **Clipboard Support:** Copy QR images directly (Ctrl+V into any app).
+- **File Export:** Save as PNG or JPEG.
+- **Modern UI:** Dark-themed interface for a better user experience.
 
-## Özellikler
-
-- **Anlık QR Üretimi** — URL, metin veya her türlü içerik
-- **Panoya Kopyala** — Tek tıkla QR görselini kopyala, direkt yapıştır
-- **PNG / JPEG Kaydet** — QR kodu dosya olarak dışa aktar
-- **Modern Arayüz** — Koyu lacivert-mor tema, tkinter tabanlı
-
-## Gereksinimler
-
-```
-Python 3.10+
-```
-
-## Kurulum
-
+## 🛠️ Installation
 ```bash
-# Gerekli kütüphaneleri yükle
 pip install qrcode[pil] Pillow pywin32
 ```
 
-## Kullanım
-
+## 🚀 Usage
 ```bash
 python main.py
 ```
 
-1. Alt kutucuğa **URL veya metin** yaz
-2. **QR Oluştur** butonuna bas (ya da Enter)
-3. **Kopyala** → Panoya kopyalar (Ctrl+V ile yapıştırılabilir)
-4. **Kaydet** → PNG / JPEG olarak dışa aktar
+Enter Text/URL.
 
-## EXE Olarak Derleme
+Press Enter or click Generate.
 
+Use Copy to paste immediately or Save to export.
+
+## 📦 Build Executable
 ```bash
 pip install pyinstaller
-pyinstaller --onefile --windowed --icon="assets/qr.ico" --name "QR_Olusturucu" main.py
+pyinstaller --onefile --windowed --icon="assets/qr.ico" --name "QR_Generator" main.py
 ```
 
-Çıktı: `dist/QR_Olusturucu.exe`
-
-## Lisans
-
+📄 License
 MIT
+
+Author: [Yiğit Özdemir](https://github.com/yigittozdemirr)
