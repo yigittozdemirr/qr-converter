@@ -30,7 +30,5 @@ pip install pyinstaller
 pyinstaller --onefile --windowed --icon="assets/qr.ico" --name "QR_Generator" main.py
 ```
 
-📄 License
-MIT
 
 Author: [Yiğit Özdemir](https://github.com/yigittozdemirr)
